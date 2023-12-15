@@ -1,1 +1,17 @@
+원격 저장소 복제 연동
+$ git clone https://github.com/atom/atom.git
 
+> 원격 저장소 수정 사항 pull로 지역 저장소로 가져오기
+§ git pull origin main
+
+• S git pull
+
+》 원격 저장소 수정 사항 fetch로 지역 저장소로 가져와 병합하기
+
+$ git fetch origin main
+$ git fetch
+$ git merge origin/main
+> 지역 저장소 수정 사항 push로 원격저장소 보내기
+$ git push origin main
+
+• $ git push
