@@ -1,1 +1,9 @@
+취소 revert 전체 조건
+
+• Nothing to commit, working tree clean
+
+》 HEAD를 취소해 HEAD~ 상태 가는 커밋을 생성
+
+$ git revert HEAD
+$ git revert HEAD -no-edit
 
