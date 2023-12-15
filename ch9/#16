@@ -1,1 +1,18 @@
+깃허브에 원격 저장소 생성
+• 저장소 목록 보기
+
+》 원격 저장소 복제
+$ git clone https://github.com/atom/atom.git
+$ git clone https://github.com/atom/atom.git.
+$ git clone https://github.com/atom/atom.git mytest
+
+> 원격 저장소 관리
+$ git remote -v
+
+$ git remote show origin
+$ git remote rename origin org
+$ git remote rm org
+
+》 vscade로 원격 저장소 관리
+Clone git repository 클릭
 
